@@ -1,13 +1,13 @@
-package pe.upc.backendtb3.user.domain.model.aggregates;
+package pe.upc.learningcenter.user.domain.model.aggregates;
 
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pe.upc.backendtb3.shared.domain.model.aggregate.AuditableAbstractAggregateRoot;
-import pe.upc.backendtb3.user.domain.model.commands.CreateStudentCommand;
-import pe.upc.backendtb3.user.domain.model.valueobjects.FullName;
+import pe.upc.learningcenter.shared.domain.model.aggregate.AuditableAbstractAggregateRoot;
+import pe.upc.learningcenter.user.domain.model.commands.CreateStudentCommand;
+import pe.upc.learningcenter.user.domain.model.valueobjects.FullName;
 @Entity
 @Getter
 @NoArgsConstructor

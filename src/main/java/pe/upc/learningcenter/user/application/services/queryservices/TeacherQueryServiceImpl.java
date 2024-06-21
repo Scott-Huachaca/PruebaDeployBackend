@@ -1,10 +1,10 @@
-package pe.upc.backendtb3.user.application.services.queryservices;
+package pe.upc.learningcenter.user.application.services.queryservices;
 
 import org.springframework.stereotype.Service;
-import pe.upc.backendtb3.user.domain.model.aggregates.Teacher;
-import pe.upc.backendtb3.user.domain.model.querys.GetAllTeachersQuery;
-import pe.upc.backendtb3.user.domain.service.TeacherQueryService;
-import pe.upc.backendtb3.user.infrastructure.persistence.jpa.TeacherRepository;
+import pe.upc.learningcenter.user.domain.model.aggregates.Teacher;
+import pe.upc.learningcenter.user.domain.model.querys.GetAllTeachersQuery;
+import pe.upc.learningcenter.user.domain.service.TeacherQueryService;
+import pe.upc.learningcenter.user.infrastructure.persistence.jpa.TeacherRepository;
 
 import java.util.List;
 

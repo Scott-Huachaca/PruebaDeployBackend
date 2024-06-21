@@ -1,7 +1,7 @@
-package pe.upc.backendtb3.user.interfaces.rest.transform;
+package pe.upc.learningcenter.user.interfaces.rest.transform;
 
-import pe.upc.backendtb3.user.domain.model.aggregates.Teacher;
-import pe.upc.backendtb3.user.interfaces.rest.resources.TeacherResource;
+import pe.upc.learningcenter.user.domain.model.aggregates.Teacher;
+import pe.upc.learningcenter.user.interfaces.rest.resources.TeacherResource;
 
 public class TeacherResourceFromEntityAssembler {
     public static TeacherResource toResourceFromEntity(Teacher entity) {

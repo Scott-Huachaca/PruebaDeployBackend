@@ -1,12 +1,12 @@
-package pe.upc.backendtb3.user.application.services.commandservices;
+package pe.upc.learningcenter.user.application.services.commandservices;
 
 import org.springframework.stereotype.Service;
-import pe.upc.backendtb3.user.domain.model.aggregates.Student;
-import pe.upc.backendtb3.user.domain.model.commands.CreateStudentCommand;
-import pe.upc.backendtb3.user.domain.model.commands.UpdateStudentCommand;
-import pe.upc.backendtb3.user.domain.service.StudentCommandService;
-import pe.upc.backendtb3.user.infrastructure.persistence.jpa.StudentRepository;
-import pe.upc.backendtb3.user.interfaces.rest.resources.CreateStudentResource;
+import pe.upc.learningcenter.user.domain.model.aggregates.Student;
+import pe.upc.learningcenter.user.domain.model.commands.CreateStudentCommand;
+import pe.upc.learningcenter.user.domain.model.commands.UpdateStudentCommand;
+import pe.upc.learningcenter.user.domain.service.StudentCommandService;
+import pe.upc.learningcenter.user.infrastructure.persistence.jpa.StudentRepository;
+import pe.upc.learningcenter.user.interfaces.rest.resources.CreateStudentResource;
 
 import java.util.Optional;
 

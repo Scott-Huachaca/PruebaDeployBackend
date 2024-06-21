@@ -1,4 +1,4 @@
-package pe.upc.backendtb3.user.domain.model.querys;
+package pe.upc.learningcenter.user.domain.model.querys;
 
 public record GetAllStudentsQuery() {
 }

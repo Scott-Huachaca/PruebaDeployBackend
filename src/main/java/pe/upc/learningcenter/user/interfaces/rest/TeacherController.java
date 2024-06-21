@@ -1,18 +1,18 @@
-package pe.upc.backendtb3.user.interfaces.rest;
+package pe.upc.learningcenter.user.interfaces.rest;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pe.upc.backendtb3.user.domain.model.querys.GetAllTeachersQuery;
-import pe.upc.backendtb3.user.domain.service.TeacherCommandService;
-import pe.upc.backendtb3.user.domain.service.TeacherQueryService;
-import pe.upc.backendtb3.user.interfaces.rest.resources.CreateTeacherResource;
-import pe.upc.backendtb3.user.interfaces.rest.resources.StudentResource;
-import pe.upc.backendtb3.user.interfaces.rest.resources.TeacherResource;
-import pe.upc.backendtb3.user.interfaces.rest.transform.CreateTeacherCommandFromResourceAssembler;
-import pe.upc.backendtb3.user.interfaces.rest.transform.TeacherResourceFromEntityAssembler;
+import pe.upc.learningcenter.user.domain.model.querys.GetAllTeachersQuery;
+import pe.upc.learningcenter.user.domain.service.TeacherCommandService;
+import pe.upc.learningcenter.user.domain.service.TeacherQueryService;
+import pe.upc.learningcenter.user.interfaces.rest.resources.CreateTeacherResource;
+import pe.upc.learningcenter.user.interfaces.rest.resources.StudentResource;
+import pe.upc.learningcenter.user.interfaces.rest.resources.TeacherResource;
+import pe.upc.learningcenter.user.interfaces.rest.transform.CreateTeacherCommandFromResourceAssembler;
+import pe.upc.learningcenter.user.interfaces.rest.transform.TeacherResourceFromEntityAssembler;
 
 import java.util.List;
 

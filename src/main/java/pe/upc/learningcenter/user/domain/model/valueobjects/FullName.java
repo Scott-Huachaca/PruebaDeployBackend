@@ -1,4 +1,4 @@
-package pe.upc.backendtb3.user.domain.model.valueobjects;
+package pe.upc.learningcenter.user.domain.model.valueobjects;
 
 import jakarta.persistence.Embeddable;
 

@@ -1,7 +1,7 @@
-package pe.upc.backendtb3.user.interfaces.rest.transform;
+package pe.upc.learningcenter.user.interfaces.rest.transform;
 
-import pe.upc.backendtb3.user.domain.model.commands.CreateTeacherCommand;
-import pe.upc.backendtb3.user.interfaces.rest.resources.CreateTeacherResource;
+import pe.upc.learningcenter.user.domain.model.commands.CreateTeacherCommand;
+import pe.upc.learningcenter.user.interfaces.rest.resources.CreateTeacherResource;
 
 public class CreateTeacherCommandFromResourceAssembler {
     public static CreateTeacherCommand toCommandFromResource(CreateTeacherResource resource) {

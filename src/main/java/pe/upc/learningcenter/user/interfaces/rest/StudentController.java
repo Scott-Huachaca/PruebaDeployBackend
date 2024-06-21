@@ -1,20 +1,20 @@
-package pe.upc.backendtb3.user.interfaces.rest;
+package pe.upc.learningcenter.user.interfaces.rest;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pe.upc.backendtb3.user.domain.model.commands.UpdateStudentCommand;
-import pe.upc.backendtb3.user.domain.model.querys.GetAllStudentsQuery;
-import pe.upc.backendtb3.user.domain.model.querys.GetStudentByIdQuery;
-import pe.upc.backendtb3.user.domain.service.StudentCommandService;
-import pe.upc.backendtb3.user.domain.service.StudentQueryService;
-import pe.upc.backendtb3.user.interfaces.rest.resources.CreateStudentResource;
-import pe.upc.backendtb3.user.interfaces.rest.resources.StudentResource;
-import pe.upc.backendtb3.user.interfaces.rest.transform.CreateStudentCommandFromResourceAssembler;
-import pe.upc.backendtb3.user.interfaces.rest.transform.StudentResourceFromEntityAssembler;
-import pe.upc.backendtb3.user.interfaces.rest.transform.UpdateStudentCommandFromResourceAssembler;
+import pe.upc.learningcenter.user.domain.model.commands.UpdateStudentCommand;
+import pe.upc.learningcenter.user.domain.model.querys.GetAllStudentsQuery;
+import pe.upc.learningcenter.user.domain.model.querys.GetStudentByIdQuery;
+import pe.upc.learningcenter.user.domain.service.StudentCommandService;
+import pe.upc.learningcenter.user.domain.service.StudentQueryService;
+import pe.upc.learningcenter.user.interfaces.rest.resources.CreateStudentResource;
+import pe.upc.learningcenter.user.interfaces.rest.resources.StudentResource;
+import pe.upc.learningcenter.user.interfaces.rest.transform.CreateStudentCommandFromResourceAssembler;
+import pe.upc.learningcenter.user.interfaces.rest.transform.StudentResourceFromEntityAssembler;
+import pe.upc.learningcenter.user.interfaces.rest.transform.UpdateStudentCommandFromResourceAssembler;
 
 import java.util.List;
 

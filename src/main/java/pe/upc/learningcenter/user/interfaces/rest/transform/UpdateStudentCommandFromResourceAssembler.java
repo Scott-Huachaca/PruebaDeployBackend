@@ -1,8 +1,7 @@
-package pe.upc.backendtb3.user.interfaces.rest.transform;
+package pe.upc.learningcenter.user.interfaces.rest.transform;
 
-import pe.upc.backendtb3.course.domain.model.commands.UpdateCourseCommand;
-import pe.upc.backendtb3.user.domain.model.commands.UpdateStudentCommand;
-import pe.upc.backendtb3.user.interfaces.rest.resources.StudentResource;
+import pe.upc.learningcenter.user.domain.model.commands.UpdateStudentCommand;
+import pe.upc.learningcenter.user.interfaces.rest.resources.StudentResource;
 
 public class UpdateStudentCommandFromResourceAssembler {
     public static UpdateStudentCommand toCommandFromResource(Long studentId, UpdateStudentCommand resource) {

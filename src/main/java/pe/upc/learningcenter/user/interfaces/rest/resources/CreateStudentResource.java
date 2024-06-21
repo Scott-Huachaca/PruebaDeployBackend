@@ -1,4 +1,4 @@
-package pe.upc.backendtb3.user.interfaces.rest.resources;
+package pe.upc.learningcenter.user.interfaces.rest.resources;
 
 public record CreateStudentResource(String firstName,
                                     String lastName,

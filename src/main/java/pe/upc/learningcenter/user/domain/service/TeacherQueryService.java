@@ -1,8 +1,8 @@
-package pe.upc.backendtb3.user.domain.service;
+package pe.upc.learningcenter.user.domain.service;
 
 import org.springframework.stereotype.Service;
-import pe.upc.backendtb3.user.domain.model.aggregates.Teacher;
-import pe.upc.backendtb3.user.domain.model.querys.GetAllTeachersQuery;
+import pe.upc.learningcenter.user.domain.model.aggregates.Teacher;
+import pe.upc.learningcenter.user.domain.model.querys.GetAllTeachersQuery;
 
 import java.util.List;
 
